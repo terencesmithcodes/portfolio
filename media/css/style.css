@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-/* :root {
-  --primaryColor: #fff;
-  --navColor1: #03256c;
-  --navColor2: #2541b2;
-  --navColor3: #1768AC;
-  --navColor4: #06BEE1;
-  --navColor5: #fff;
-} */
 
 *
 {
@@ -233,7 +225,10 @@ section.showcase {
   letter-spacing: 2px;
   color: #fff;
 }
-
+.boxes .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
 .flex-container {
   height: 500px;
   display: flex;
@@ -243,17 +238,40 @@ section.showcase {
 }
 
 .item img {
-  flex-basis: 200px;
-  flex-grow: 2;
+  flex: 1;
   height: 300px;
   margin: 10px;
   border-radius: 5px;
 
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+  
+  @media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .flex-container {
+    display: block;
+    text-align: center;
+  }
 }
 
+@media (max-width: 768px) {
+   .flex-container {
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .boxes .flex-container {
+    display: block;
+    text-align: center;
+  }
+}
 
 /* .item img {
   height: 250px;
