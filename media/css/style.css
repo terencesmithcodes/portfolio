@@ -264,8 +264,8 @@ transition-duration: 1s, 3s;
 transition-timing-function: ease-in;
 }
 .project:hover{
-  background: #A8943d;;
-  border-radius: 20%;
+  background: #A8943d;
+  border-radius: 15%;
   color: #0B2647;
   
 }
