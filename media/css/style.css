@@ -100,14 +100,24 @@ header .logo
   z-index: 10;
 }
 
+/* .text, .project-txt h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  z-index: 10;
+  
+} */
+
 .text h2
 {
+
   font-size: 5em;
   font-weight: 800;
   color: #fff;
   line-height: 1em;
   text-transform: uppercase;
 }
+
 .text h3
 {
   font-size: 4em;
@@ -124,7 +134,7 @@ header .logo
   font-weight: 400;
   max-width: 700px;
 }
-.text a
+/* .text a
 {
   display: inline-block;
   font-size: 1em;
@@ -141,7 +151,7 @@ header .logo
 .text a:hover
 {
   letter-spacing: 6px;
-}
+} */
 .social
 {
   position: absolute;
@@ -194,7 +204,7 @@ header .logo
 }
 .menu ul li a:hover
 {
-  color: #03a9f4; 
+  color: #b7d8d6; 
 }
 
 @media (max-width: 991px)
@@ -239,11 +249,11 @@ section.showcase {
 
 .project {
   flex: 1;
-  background: #041121;
+  background: #153240;
   color: #fff;
   /* border-radius: 10px; */
   margin: 20px 10px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
   padding: 15px 20px;
   height: 300px;
 }
@@ -251,12 +261,13 @@ section.showcase {
 .project h2 a {
   text-decoration: none;
   font-size: 24px;
-  color: #fff;
+  color: #fff3d9;
 }
 
-/* .project h2 a:hover {
-  color: #03a9f4;
-} */
+.project h2 a:hover {
+    color: #47aad9;
+  
+}
 
 .project {
 transition-property: background, color, border-radius, ;
@@ -264,9 +275,9 @@ transition-duration: 1s, 3s;
 transition-timing-function: ease-in;
 }
 .project:hover{
-  background: #A8943d;
+  background: #2e6e8d;
   border-radius: 15%;
-  color: #0B2647;
+  color: #47aad9;
   
 }
   
