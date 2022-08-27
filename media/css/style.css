@@ -294,9 +294,16 @@ transition-timing-function: ease-in;
   }
 }
 
+a {
+  text-decoration: none;
+  font-size: 1.1em;
+  color: #111;
+  color: #b7d8d6; 
+}
 
-
-
+/* .text.contact {
+  margin-left: -600px;
+} */
 
 
 
