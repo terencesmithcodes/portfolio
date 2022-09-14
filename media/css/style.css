@@ -248,14 +248,15 @@ section.showcase {
 }
 
 .project {
-  flex: 1;
+  flex: 3;
   background: #153240;
   color: #fff;
   /* border-radius: 10px; */
   margin: 20px 10px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
   padding: 15px 20px;
-  height: 300px;
+  height: 400px;
+  width: 600px;
 }
 
 .project h2 a {
@@ -267,6 +268,48 @@ section.showcase {
 .project h2 a:hover {
     color: #47aad9;
   
+}
+
+.project-des{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin-bottom: 40px;
+}
+
+.language {
+
+  margin-bottom: 10px;
+}
+
+button{
+  position: relative;
+    padding: 15px;
+    background-color:#47aad9;
+    color: #fff;
+    font-size: 1.1em;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 250px;
+    height: 50px;
+    margin-top: 85px;
+    /* margin: 20px auto 0; */
+    border-radius: 30px;
+    padding: 5px;
+   
+}
+
+.b2{
+  margin-top: 110px;
+}
+.b3{
+  margin-top: 110px;
+}
+.b4{
+  margin-top: 115px;
 }
 
 .project {
