@@ -7,6 +7,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.repo{
+  margin-top: 25px;
+}
 header
 {
   position: absolute;
@@ -301,15 +304,20 @@ button{
     padding: 5px;
    
 }
-
+.b1{
+  margin-top: 110px;
+}
 .b2{
   margin-top: 110px;
 }
 .b3{
-  margin-top: 110px;
+  margin-top: 100px;
 }
 .b4{
-  margin-top: 95px;
+  margin-top: 110px;
+}
+.b5{
+  margin-top: 100px;
 }
 
 .project {
@@ -327,14 +335,81 @@ transition-timing-function: ease-in;
   @media (max-width: 768px) {
    .flex-container {
     flex-direction: column;
-    padding-top: 20px;
+    /* padding-top: 2px; */
     text-align: center;
+    /* margin: 15px; */
   }
 
   .boxes .flex-container {
     display: block;
     text-align: center;
   }
+
+  .text {
+    font-size: 10px;
+  }
+
+  .contact-form {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .project {
+    width: 300px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 25px;
+    
+  }
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: -120px;
+  margin-bottom: 5px;
+}
+
+.contact-container{
+  margin-left: 20px;
+}
+
+.terence{
+  margin-bottom: 10px;
+}
+.location{
+  font-size: 15px;
+}
+
+
+button {
+  width: 150px;
+  margin-top: 0px;
+}
+
+  .b1 {
+ 
+    margin-top: 30px;
+  }
+    .b2 {
+ 
+    margin-top: 43px;
+  }
+
+      .b3 {
+ 
+    margin-top: 55px;
+  }
+        .b4 {
+ 
+    margin-top: 30px;
+  }
+
+          .b5 {
+ 
+    margin-top: 32px;
+     margin-bottom: 25px;
+  }
+
 }
 
 a {

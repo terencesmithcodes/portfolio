@@ -38,7 +38,40 @@ ul#contact.social {
    align-content: center;
    margin-bottom: -100px;
    margin-left: 200px;
+   list-style: none;
   
 }
+.info{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: -95px;
+  
+  /* margin-bottom: 5px; */
+}
+.info li
+{
+  list-style: none;
+}
+.info li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.contact-form{
+    margin-top: 100px;
+    
+}
+  /* filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+  
+}
+.info li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+} */
 
 
